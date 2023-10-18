@@ -1,4 +1,14 @@
 "use client";
+/* 
+1. home
+2. Schnuppern
+3. Anschäge
+4. Über uns
+5. news
+6. Galerie
+7. Shop
+
+*/
 
 import {
   Navbar,
@@ -18,24 +28,52 @@ import { Divider } from "@nextui-org/react";
 
 const Nav = () => {
   return (
-    <Navbar isBlurred>
-      <NavbarBrand>
+    <Navbar isBlurred className="content-start">
+      <NavbarBrand className="justify-end">
         <img
           src="https://image.jimcdn.com/app/cms/image/transf/none/path/s4c5d6f225e690de2/image/i1750ff59e7550964/version/1667412256/image.png"
           alt="PfadiMH Logo"
-          className="w-12 h-12"
+          className="w-12 h-12 align-left "
         />
-        <p className="font-bold text-inherit">Pfadi MH</p>
+        <p className="font-bold">Pfadi MH</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem isActive>
           <Link href="#" aria-current="page">
-            Customers
+            HOME
+          </Link>
+        </NavbarItem>
+
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            KONTAKT
+          </Link>
+        </NavbarItem>
+
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            STANDORT
+          </Link>
+        </NavbarItem>
+
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            LÄDELI
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#">
-            Integrations
+            FOTOGALERIE
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            SCHNUPPERN
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            DAS IST PFADI
           </Link>
         </NavbarItem>
 
@@ -47,7 +85,7 @@ const Nav = () => {
                 className="p-0 bg-transparent data-[hover=true]:bg-transparent"
                 radius="sm"
               >
-                Test Dropdown
+                ANSCHLÄGE
               </Button>
             </DropdownTrigger>
           </NavbarItem>
@@ -60,37 +98,21 @@ const Nav = () => {
               base: "gap-4",
             }}
           >
-            <DropdownItem
-              key="autoscaling"
-              description="Pfadi Gruppe Orthenstein Friendberg"
-            >
-              <span className="font-bold">2.Stufe</span>
+            <DropdownItem key="wölfli" description="No description">
               <Divider />
-              OFI
+              WÖLFLI
             </DropdownItem>
-            <DropdownItem
-              key="usage_metrics"
-              description="Gruppe Orthenstein Friendberg"
-            >
-              Usage Metrics
+            <DropdownItem key="bienli" description="No description">
+              BIENLI
             </DropdownItem>
-            <DropdownItem
-              key="production_ready"
-              description="ACME runs on ACME, join us and others serving requests at web scale."
-            >
-              Production Ready
+            <DropdownItem key="pfadistufe meitli" description="No description">
+              PFADISTUFE MEITLI
             </DropdownItem>
-            <DropdownItem
-              key="99_uptime"
-              description="Applications stay on the grid with high availability and high uptime guarantees."
-            >
-              +99% Uptime
+            <DropdownItem key="pfadistufe buebe" description="No description">
+              PFADISTUFE BUEBE
             </DropdownItem>
-            <DropdownItem
-              key="supreme_support"
-              description="Overcome any challenge with a supporting team ready to respond."
-            >
-              +Supreme Support
+            <DropdownItem key="pios" description="No description">
+              PIOS
             </DropdownItem>
           </DropdownMenu>
         </Dropdown>
