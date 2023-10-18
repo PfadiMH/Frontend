@@ -1,4 +1,14 @@
 "use client";
+/* 
+1. home
+2. Schnuppern
+3. Anschäge
+4. Über uns
+5. news
+6. Galerie
+7. Shop
+
+*/
 
 import {
   Navbar,
