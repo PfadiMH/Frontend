@@ -46,7 +46,6 @@ const Nav = () => {
                 disableRipple
                 className="p-0 bg-transparent data-[hover=true]:bg-transparent"
                 radius="sm"
-                variant="light"
               >
                 Test Dropdown
               </Button>
@@ -54,7 +53,7 @@ const Nav = () => {
           </NavbarItem>
 
           <DropdownMenu
-            aria-label="ACME features"
+            aria-label="Pfadi Gruppen"
             className="w-[340px]"
             itemClasses={{
               base: "gap-4",
