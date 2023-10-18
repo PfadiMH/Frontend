@@ -53,8 +53,9 @@ const Nav = () => {
           </NavbarItem>
 
           <DropdownMenu
+          
             aria-label="Pfadi Gruppen"
-            className="w-[340px]"
+            className="w-[340px] text-black"
             itemClasses={{
               base: "gap-4",
             }}
