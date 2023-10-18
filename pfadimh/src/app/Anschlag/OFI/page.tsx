@@ -5,7 +5,7 @@ export default function MyCard() {
   return (
     <div className="mx-28 bg-white">
       <div className="mx-14 bg-white">
-        <div className="h-screen flex justify-center items-start bg-white space-x-16">
+        <div className="flex justify-center items-start bg-white space-x-16">
           <Card className="w-15 h-13 mt-5 bg-red-100">
             <CardHeader>
               <h2 className="text-3xl font-bold text-red-600">Über uns.</h2>
@@ -16,33 +16,36 @@ export default function MyCard() {
                 style={{ whiteSpace: "pre-line" }}
               >
                 Wir sind die Piostufe. In unserer Stufe werden die
-                Teilnehmer*innen{"\n"}
-                selbstständig. Es werden spannende Aktivitäten geplant und
-                Anlässe{"\n"}
+                Teilnehmer*innen selbstständig. Es werden spannende Aktivitäten
+                geplant und Anlässe
+                {"\n"}
+                {"\n"}
                 durchgeführt. Auch findet ein Austausch mit verschiedenen Pios
-                aus{"\n"}
+                aus
+                {"\n"}
                 der Umgebung statt. Die Piostufe ist eine erlebnisreiche Zeit,
-                in{"\n"}
+                in
+                {"\n"}
+                {"\n"}
                 der die Teilnehmer*innen die wichtigste Grundlage lernen, um
-                gute{"\n"}
+                gute
+                {"\n"}
                 Leiter*innen zu sein und mit gleichaltrigen tolle Erlebnisse zu
                 sammeln.
               </div>
             </CardBody>
           </Card>
-
-          <Card className="bg-red-100">
+          <Card className="h-13 w-13 bg-red-100">
             <CardBody className="random_img">
               <img
                 src="https://image.jimcdn.com/app/cms/image/transf/dimension=399x10000:format=png/path/s4c5d6f225e690de2/image/i1750ff59e7550964/version/1667412256/image.png"
                 alt="Ich bin voll Däbii"
-                className="h-13 w-13"
               />
             </CardBody>
           </Card>
         </div>
 
-        <div className="h-screen flex justify-center items-start bg-white space-x-7">
+        <div className="flex justify-center items-start bg-white space-x-16 mt-5">
           <Card className="w-15 h-13 mt-5 bg-red-100">
             <CardHeader>
               <h3 className="text-3xl font-bold text-red-600">Kalender</h3>
@@ -59,7 +62,6 @@ export default function MyCard() {
               </div>
             </CardBody>
           </Card>
-
           <Card className="bg-red-100">
             <CardHeader>
               <h3 className="text-3xl font-bold text-red-600">
@@ -85,17 +87,14 @@ export default function MyCard() {
             </CardBody>
           </Card>
         </div>
-
         <div className="mx-14">
           <div className="flex mb-4">
-            <div className="w-1/3 bg-gray-400 h-12"></div>
             <Card className="w-15 h-30 bg-red-100">
               <CardHeader>
                 <h3 className="text-3xl font-bold text-red-600">
                   Leiter*Innen
                 </h3>
               </CardHeader>
-
               <CardBody>
                 <img
                   src="your_leaders_image_url_here"
