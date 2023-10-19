@@ -31,7 +31,7 @@ export default function DasIstPfadi() {
                 />
             </Card>
 
-            <Card>
+            <Card className="border-nonew-15 h-13 mt-5 bg-red-100">
                 <CardBody>Die Pfadi in Zahlen
                     50’000
                     Pfadis 1200
@@ -42,7 +42,7 @@ export default function DasIstPfadi() {
             <Card
                 isFooterBlurred
                 radius="lg"
-                className="border-none"
+                className="border-none border-nonew-15 h-13 mt-5 bg-red-100"
             >
                 <Image
                     alt="Woman listing to music"
@@ -53,7 +53,7 @@ export default function DasIstPfadi() {
                 />
             </Card>
 
-            <Card>
+            <Card className="border-nonew-15 h-13 mt-5 bg-red-100">
                 <CardBody>
                     <h1>Das ist die Pfadi Schweiz</h1>
                     <p>
@@ -68,52 +68,48 @@ export default function DasIstPfadi() {
                 <h1>Für wen ist die Pfadi?</h1>
                 <p>Fünf Altersstufen ermöglichen eine altersspezifische Gruppenzuteilung, die auf individuelle Bedürfnisse und Interessen eingeht. Daneben gibt es die Pfadi Trotz Allem (PTA) für Kinder und Jugendliche mit einer Behinderung.</p>
             </div>
-            <Card isPressable>
+            <Card isPressable
+                className="border-nonew-15 h-13 mt-5 bg-red-100">
                 <CardBody>
                     Biberstufe
                     Die Biberstufe richtet sich an Kinder von 5-6 Jahren. Sie finden hier Raum, sich selber und andere Kinder besser kennen zu lernen und erhalten die Möglichkeit, die Welt und deren Vielfältigkeit zu entdecken. Die Biberli treffen sich jeden zweiten Samstag.</CardBody>
             </Card>
-            <Card isPressable>
+            <Card isPressable className="border-nonew-15 h-13 mt-5 bg-red-100">
                 <CardBody>
                     Biberstufe
                     Die Biberstufe richtet sich an Kinder von 5-6 Jahren. Sie finden hier Raum, sich selber und andere Kinder besser kennen zu lernen und erhalten die Möglichkeit, die Welt und deren Vielfältigkeit zu entdecken. Die Biberli treffen sich jeden zweiten Samstag.</CardBody>
             </Card>
-            <Card isPressable>
+            <Card isPressable className="border-nonew-15 h-13 mt-5 bg-red-100">
                 <CardBody>
                     Biberstufe
                     Die Biberstufe richtet sich an Kinder von 5-6 Jahren. Sie finden hier Raum, sich selber und andere Kinder besser kennen zu lernen und erhalten die Möglichkeit, die Welt und deren Vielfältigkeit zu entdecken. Die Biberli treffen sich jeden zweiten Samstag.</CardBody>
             </Card>
-            <Card isPressable>
+            <Card isPressable className="border-nonew-15 h-13 mt-5 bg-red-100">
                 <CardBody>
                     Biberstufe
                     Die Biberstufe richtet sich an Kinder von 5-6 Jahren. Sie finden hier Raum, sich selber und andere Kinder besser kennen zu lernen und erhalten die Möglichkeit, die Welt und deren Vielfältigkeit zu entdecken. Die Biberli treffen sich jeden zweiten Samstag.</CardBody>
             </Card>
-            <Card>
+            <Card isPressable className="border-nonew-15 h-13 mt-5 bg-red-100">
                 <CardBody>
                     Biberstufe
                     Die Biberstufe richtet sich an Kinder von 5-6 Jahren. Sie finden hier Raum, sich selber und andere Kinder besser kennen zu lernen und erhalten die Möglichkeit, die Welt und deren Vielfältigkeit zu entdecken. Die Biberli treffen sich jeden zweiten Samstag.</CardBody>
             </Card>
-            <Card>
+            <Card isPressable className="border-nonew-15 h-13 mt-5 bg-red-100">
                 <CardBody>
                     Biberstufe
                     Die Biberstufe richtet sich an Kinder von 5-6 Jahren. Sie finden hier Raum, sich selber und andere Kinder besser kennen zu lernen und erhalten die Möglichkeit, die Welt und deren Vielfältigkeit zu entdecken. Die Biberli treffen sich jeden zweiten Samstag.</CardBody>
             </Card>
-            <Card>
-                <Card>
-                    <CardHeader>
-                        <h1 >Gründe für die Pfadi</h1>
-                        <p>
-                            Die Pfadis unternehmen in der Gruppe gemeinsam Aktivitäten, zum Beispiel Geländespiele, Basteln, Schnitzeljagden, Knoten knüpfen, Kochen, Postenläufe, Lagerbauten oder das Erlernen von erster Hilfe. Dabei entdeckt man nicht nur die Natur sondern auch Freunde fürs Leben.</p>
+            <Card className="border-nonew-15 h-13 mt-5 bg-red-100">
 
-                    </CardHeader>
-                    <Image
-                        alt="Card background"
-                        src="https://pfadi-sirius.ch/wp-content/uploads/2022/11/DSC_0002_2022-08-09-18-03-34-scaled.webp">
-                    </Image>
-                </Card>
+                <div>
+                    <h1 >Gründe für die Pfadi</h1>
+                    <p>
+                        Die Pfadis unternehmen in der Gruppe gemeinsam Aktivitäten, zum Beispiel Geländespiele, Basteln, Schnitzeljagden, Knoten knüpfen, Kochen, Postenläufe, Lagerbauten oder das Erlernen von erster Hilfe. Dabei entdeckt man nicht nur die Natur sondern auch Freunde fürs Leben.</p>
+
+                </div>
 
                 <Card className="col-span-12 sm:col-span-4 h-[300px]">
-                    <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+                    <CardHeader className="absolute z-10 top-1 flex-col !items-start ">
                         <h1 className="text-white font-medium text-large" >Gründe für die Pfadi</h1>
                         <p className="text-white font-medium text-large">
                             Die Pfadis unternehmen in der Gruppe gemeinsam Aktivitäten, zum Beispiel Geländespiele, Basteln, Schnitzeljagden, Knoten knüpfen, Kochen, Postenläufe, Lagerbauten oder das Erlernen von erster Hilfe. Dabei entdeckt man nicht nur die Natur sondern auch Freunde fürs Leben.</p>
