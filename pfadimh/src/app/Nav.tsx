@@ -6,10 +6,11 @@ import {
   NavbarContent,
   NavbarMenuItem,
   NavbarItem,
+  Navbar,
+  NavbarMenuToggle,
 } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
-import { NavbarMenuToggle } from "@nextui-org/react";
-import { Navbar } from "@nextui-org/react";
+
 import { useState } from "react";
 import {
   Dropdown,
@@ -19,7 +20,6 @@ import {
   DropdownSection,
 } from "@nextui-org/dropdown";
 import { Button } from "@nextui-org/button";
-import { Divider } from "@nextui-org/react";
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
