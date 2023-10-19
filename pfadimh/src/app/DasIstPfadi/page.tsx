@@ -1,5 +1,5 @@
 "use client";
-import { Card, CardHeader, CardBody, CardFooter, Image, Button, } from "@nextui-org/react";
+import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 
 export default function DasIstPfadi() {
     return (

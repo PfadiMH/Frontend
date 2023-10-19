@@ -1,5 +1,5 @@
 "use client";
-import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/react";
+import { Card, CardHeader, CardBody } from "@nextui-org/react";
 
 export default function MyCard() {
   return (
