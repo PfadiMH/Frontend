@@ -522,7 +522,7 @@ export default function DasIstPfadi() {
             Leben.
           </p>
         </div>
-        <div className=" grid grid-flow-row grid-flow-col">
+        <div className=" grid grid-flow-col">
           <Card className="col-span-12 sm:col-span-4 h-[300px]">
             <CardHeader className="absolute z-10 top-1 flex-col !items-start ">
               <h1 className="text-3xl font-bold text-red-600">
