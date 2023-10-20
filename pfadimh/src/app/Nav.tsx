@@ -20,7 +20,6 @@ import {
   DropdownSection,
 } from "@nextui-org/dropdown";
 import { Button } from "@nextui-org/button";
-
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -48,7 +47,12 @@ const Nav = () => {
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link color="foreground" href="#" aria-current="page">
+          <Link
+            color="foreground"
+            as="a"
+            href="/Schnuppern"
+            aria-current="page"
+          >
             SCHNUPPERN
           </Link>
         </NavbarItem>
@@ -72,31 +76,55 @@ const Nav = () => {
             }}
           >
             <DropdownSection title="1.Stufe" showDivider>
-              <DropdownItem key="Akela" description="Buebe (Bis 10. Jahre)">
+              <DropdownItem
+                key="Akela"
+                description="Buebe (Bis 10. Jahre)"
+                as="a"
+                href="/Anschlag/OFI"
+              >
                 Akela 🐺
               </DropdownItem>
 
-              <DropdownItem key="Raschka" description="Meitli (Bis 10.Jahre)">
+              <DropdownItem
+                key="Raschka"
+                description="Meitli (Bis 10.Jahre)"
+                as="a"
+                href="/Anschlag/Raschka1"
+              >
                 Raschka 🐝
               </DropdownItem>
             </DropdownSection>
 
             <DropdownSection title="2.Stufe" showDivider>
-              <DropdownItem key="2. Stufe" description="Buebe (10-14 Jahre">
+              <DropdownItem
+                key="2. Stufe"
+                description="Buebe (10-14 Jahre"
+                as="a"
+                href="/Anschlag/OFI"
+              >
                 OFI ⚜️
               </DropdownItem>
 
-              <DropdownItem key="2.Stufe" description="Raschka (10-14 Jahre">
-                Raschka 🍀
+              <DropdownItem
+                key="2.Stufe"
+                description="Raschka (10-14 Jahre"
+                as="a"
+                href="/Anschlag/Raschka2"
+              >
+                Ashera 🍀
               </DropdownItem>
             </DropdownSection>
 
-            <DropdownItem key="PIOS" description="ab 14 Jahre">
+            <DropdownItem
+              key="PIOS"
+              description="ab 14 Jahre"
+              as="a"
+              href="/Anschlag/PIOS"
+            >
               PIOS 🧭
             </DropdownItem>
           </DropdownMenu>
         </Dropdown>
-
         <Dropdown>
           <NavbarItem>
             <DropdownTrigger>
@@ -124,13 +152,11 @@ const Nav = () => {
             <DropdownItem key="2019">Kontakt</DropdownItem>
           </DropdownMenu>
         </Dropdown>
-
         <NavbarItem>
           <Link color="foreground" href="#" aria-current="page">
             NEWS
           </Link>
         </NavbarItem>
-
         <Dropdown>
           <NavbarItem>
             <DropdownTrigger>
@@ -170,7 +196,6 @@ const Nav = () => {
             </DropdownSection>
           </DropdownMenu>
         </Dropdown>
-
         <NavbarItem>
           <Link color="foreground" href="#" aria-current="page">
             SHOP
