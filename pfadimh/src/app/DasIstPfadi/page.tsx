@@ -399,8 +399,8 @@ export default function DasIstPfadi() {
                     verantwortlich, diesen Freiraum sinnvoll zu gestalten.
                     Schliesslich sind wir keine Kinder mehr. Weil wir uns als
                     Pios dieser Herausforderung stellen und dabei nie auslernen,
-                    heisst unser Wahlspruch "zäme wiiter". Zusammen entdecken
-                    wir die Welt und diskutieren über die Themen, welche uns
+                    heisst unser Wahlspruch zäme wiiter. Zusammen entdecken wir
+                    die Welt und diskutieren über die Themen, welche uns
                     wirklich beschäftigen und treffen uns zwischendurch auch
                     ohne konkreten Anlass. Schliesslich bilden wir zusammen eine
                     buntgemischte Clique. Nachdem du einige Jahre bei den Pios
