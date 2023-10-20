@@ -45,7 +45,7 @@ export default function DasIstPfadi() {
   return (
     <div className="p-10">
       <div className="md:w-[768px] grid grid-flow-col grid-rows-3 gap-4 flex-auto">
-        <Card className="row-span-3 bg-red-100 shadow-lg">
+        <Card className="row-span-3 bg-#941B0C">
           <CardBody>
             <h1 className="text-3xl font-bold text-red-600">Was ist Pfadi?</h1>
             <p>
