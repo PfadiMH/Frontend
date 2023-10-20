@@ -111,7 +111,7 @@ const Nav = () => {
                 as="a"
                 href="/Anschlag/Raschka2"
               >
-                Raschka 🍀
+                Ashera 🍀
               </DropdownItem>
             </DropdownSection>
 
