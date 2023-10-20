@@ -6,9 +6,11 @@ import ParallaxMountains from "@/app/Components/ParalaxMountains";
 export default function Home() {
   return (
     <main>
-      <ParallaxMountains />
       <Link href="/Anschlag/OFI">
         <p> Page</p>
+      </Link>
+      <Link href="/Schnuppern">
+        <p>Schnuppern</p>
       </Link>
     </main>
   );
