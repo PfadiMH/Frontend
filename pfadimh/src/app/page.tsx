@@ -1,12 +1,11 @@
-"use client";
 import { Link } from "@nextui-org/link";
-
-import ParallaxMountains from "@/app/Components/ParalaxMountains";
+import Mountain from "@/app/Components/Mountain";
+import ParallaxMountains from "./Components/ParalaxMountains";
 
 export default function Home() {
   return (
     <main>
-      <ParallaxMountains />
+      <Mountain />
       <Link href="/Anschlag/OFI">
         <p> Page</p>
       </Link>

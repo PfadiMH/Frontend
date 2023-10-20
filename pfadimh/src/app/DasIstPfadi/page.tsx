@@ -524,7 +524,28 @@ export default function DasIstPfadi() {
         </div>
         <div className=" grid grid-flow-col">
           <Card className="col-span-12 sm:col-span-4 h-[300px]">
-            <CardHeader className="absolute z-10 top-1 flex-col !items-start ">
+            <CardHeader className="absolute z-10 top-1 flex-col !items-start pointer-events-none ">
+              <h1 className="text-3xl font-bold text-red-600">
+                Gründe für die Pfadi
+              </h1>
+              <p className="text-white font-medium text-large ">
+                Die Pfadis unternehmen in der Gruppe gemeinsam Aktivitäten, zum
+                Beispiel Geländespiele, Basteln, Schnitzeljagden, Knoten
+                knüpfen, Kochen, Postenläufe, Lagerbauten oder das Erlernen von
+                erster Hilfe. Dabei entdeckt man nicht nur die Natur sondern
+                auch Freunde fürs Leben.
+              </p>
+            </CardHeader>
+            <Image
+              removeWrapper
+              isZoomed
+              alt="Card background"
+              className="z-0 w-full h-full object-cover"
+              src="https://pfadi-sirius.ch/wp-content/uploads/2022/11/DSC_0002_2022-08-09-18-03-34-scaled.webp"
+            ></Image>
+          </Card>
+          <Card className="col-span-12 sm:col-span-4 h-[300px]">
+            <CardHeader className="absolute z-10 top-1 flex-col !items-start pointer-events-none">
               <h1 className="text-3xl font-bold text-red-600">
                 Gründe für die Pfadi
               </h1>
@@ -545,28 +566,7 @@ export default function DasIstPfadi() {
             ></Image>
           </Card>
           <Card className="col-span-12 sm:col-span-4 h-[300px]">
-            <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-              <h1 className="text-3xl font-bold text-red-600">
-                Gründe für die Pfadi
-              </h1>
-              <p className="text-white font-medium text-large">
-                Die Pfadis unternehmen in der Gruppe gemeinsam Aktivitäten, zum
-                Beispiel Geländespiele, Basteln, Schnitzeljagden, Knoten
-                knüpfen, Kochen, Postenläufe, Lagerbauten oder das Erlernen von
-                erster Hilfe. Dabei entdeckt man nicht nur die Natur sondern
-                auch Freunde fürs Leben.
-              </p>
-            </CardHeader>
-            <Image
-              removeWrapper
-              isZoomed
-              alt="Card background"
-              className="z-0 w-full h-full object-cover"
-              src="https://pfadi-sirius.ch/wp-content/uploads/2022/11/DSC_0002_2022-08-09-18-03-34-scaled.webp"
-            ></Image>
-          </Card>
-          <Card className="col-span-12 sm:col-span-4 h-[300px]">
-            <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+            <CardHeader className="absolute z-10 top-1 flex-col !items-start pointer-events-none">
               <h1 className="text-3xl font-bold text-red-600">
                 Gründe für die Pfadi
               </h1>
