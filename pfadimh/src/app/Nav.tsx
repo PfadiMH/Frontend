@@ -53,81 +53,77 @@ const Nav = () => {
           </Link>
         </NavbarItem>
 
-        <NavbarItem>
-          <Dropdown>
+        <Dropdown>
+          <DropdownTrigger>
+            <Button
+              disableRipple
+              className="p-0 bg-transparent data-[hover=true]:bg-transparent"
+              radius="sm"
+            >
+              ANSCHLÄGE
+            </Button>
+          </DropdownTrigger>
+
+          <DropdownMenu
+            aria-label="Pfadi Gruppen"
+            className="w-[340px] text-black"
+            itemClasses={{
+              base: "gap-4",
+            }}
+          >
+            <DropdownSection title="1.Stufe" showDivider>
+              <DropdownItem key="Akela" description="Buebe (Bis 10. Jahre)">
+                Akela 🐺
+              </DropdownItem>
+
+              <DropdownItem key="Raschka" description="Meitli (Bis 10.Jahre)">
+                Raschka 🐝
+              </DropdownItem>
+            </DropdownSection>
+
+            <DropdownSection title="2.Stufe" showDivider>
+              <DropdownItem key="2. Stufe" description="Buebe (10-14 Jahre">
+                OFI ⚜️
+              </DropdownItem>
+
+              <DropdownItem key="2.Stufe" description="Raschka (10-14 Jahre">
+                Raschka 🍀
+              </DropdownItem>
+            </DropdownSection>
+
+            <DropdownItem key="PIOS" description="ab 14 Jahre">
+              PIOS 🧭
+            </DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
+
+        <Dropdown>
+          <NavbarItem>
             <DropdownTrigger>
               <Button
                 disableRipple
                 className="p-0 bg-transparent data-[hover=true]:bg-transparent"
                 radius="sm"
               >
-                ANSCHLÄGE
+                ÜBER UNS
               </Button>
             </DropdownTrigger>
+          </NavbarItem>
 
-            <DropdownMenu
-              aria-label="Pfadi Gruppen"
-              className="w-[340px] text-black"
-              itemClasses={{
-                base: "gap-4",
-              }}
-            >
-              <DropdownSection title="1.Stufe" showDivider>
-                <DropdownItem key="Akela" description="Buebe (Bis 10. Jahre)">
-                  Akela 🐺
-                </DropdownItem>
-
-                <DropdownItem key="Raschka" description="Meitli (Bis 10.Jahre)">
-                  Raschka 🐝
-                </DropdownItem>
-              </DropdownSection>
-
-              <DropdownSection title="2.Stufe" showDivider>
-                <DropdownItem key="2. Stufe" description="Buebe (10-14 Jahre">
-                  OFI ⚜️
-                </DropdownItem>
-
-                <DropdownItem key="2.Stufe" description="Raschka (10-14 Jahre">
-                  Raschka 🍀
-                </DropdownItem>
-              </DropdownSection>
-
-              <DropdownItem key="PIOS" description="ab 14 Jahre">
-                PIOS 🧭
-              </DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
-        </NavbarItem>
-
-        <NavbarItem>
-          <Dropdown>
-            <NavbarItem>
-              <DropdownTrigger>
-                <Button
-                  disableRipple
-                  className="p-0 bg-transparent data-[hover=true]:bg-transparent"
-                  radius="sm"
-                >
-                  ÜBER UNS
-                </Button>
-              </DropdownTrigger>
-            </NavbarItem>
-
-            <DropdownMenu
-              aria-label="Pfadi Gruppen"
-              className="w-[340px] text-black"
-              itemClasses={{
-                base: "gap-4",
-              }}
-            >
-              <DropdownItem key="2023">FAQ</DropdownItem>
-              <DropdownItem key="2022">Lager</DropdownItem>
-              <DropdownItem key="2021">Leitende</DropdownItem>
-              <DropdownItem key="2020">Treffpunkt</DropdownItem>
-              <DropdownItem key="2019">Kontakt</DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
-        </NavbarItem>
+          <DropdownMenu
+            aria-label="Pfadi Gruppen"
+            className="w-[340px] text-black"
+            itemClasses={{
+              base: "gap-4",
+            }}
+          >
+            <DropdownItem key="2023">FAQ</DropdownItem>
+            <DropdownItem key="2022">Lager</DropdownItem>
+            <DropdownItem key="2021">Leitende</DropdownItem>
+            <DropdownItem key="2020">Treffpunkt</DropdownItem>
+            <DropdownItem key="2019">Kontakt</DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
 
         <NavbarItem>
           <Link color="foreground" href="#" aria-current="page">
@@ -135,47 +131,45 @@ const Nav = () => {
           </Link>
         </NavbarItem>
 
-        <NavbarItem>
-          <Dropdown>
-            <NavbarItem>
-              <DropdownTrigger>
-                <Button
-                  disableRipple
-                  className="p-0 bg-transparent data-[hover=true]:bg-transparent"
-                  radius="sm"
-                >
-                  GALERIE
-                </Button>
-              </DropdownTrigger>
-            </NavbarItem>
+        <Dropdown>
+          <NavbarItem>
+            <DropdownTrigger>
+              <Button
+                disableRipple
+                className="p-0 bg-transparent data-[hover=true]:bg-transparent"
+                radius="sm"
+              >
+                GALERIE
+              </Button>
+            </DropdownTrigger>
+          </NavbarItem>
 
-            <DropdownMenu
-              aria-label="Pfadi Gruppen"
-              className="w-[340px] text-black"
-              itemClasses={{
-                base: "gap-4",
-              }}
-            >
-              <DropdownSection title="Bilder" showDivider>
-                <DropdownItem key="2023">2023</DropdownItem>
-                <DropdownItem key="2022">2022</DropdownItem>
-                <DropdownItem key="2021">2021</DropdownItem>
-                <DropdownItem key="2020">2020</DropdownItem>
-                <DropdownItem key="2019">2019</DropdownItem>
-                <DropdownItem key="2018">2018</DropdownItem>
-                <DropdownItem key="2017">2017</DropdownItem>
-                <DropdownItem key="1016">2016</DropdownItem>
-                <DropdownItem key="1015">2015</DropdownItem>
-                <DropdownItem key="2014">2014</DropdownItem>
-              </DropdownSection>
+          <DropdownMenu
+            aria-label="Pfadi Gruppen"
+            className="w-[340px] text-black"
+            itemClasses={{
+              base: "gap-4",
+            }}
+          >
+            <DropdownSection title="Bilder" showDivider>
+              <DropdownItem key="2023">2023</DropdownItem>
+              <DropdownItem key="2022">2022</DropdownItem>
+              <DropdownItem key="2021">2021</DropdownItem>
+              <DropdownItem key="2020">2020</DropdownItem>
+              <DropdownItem key="2019">2019</DropdownItem>
+              <DropdownItem key="2018">2018</DropdownItem>
+              <DropdownItem key="2017">2017</DropdownItem>
+              <DropdownItem key="1016">2016</DropdownItem>
+              <DropdownItem key="1015">2015</DropdownItem>
+              <DropdownItem key="2014">2014</DropdownItem>
+            </DropdownSection>
 
-              <DropdownSection title="Videos" showDivider>
-                <DropdownItem key="Viedogalerie">2023</DropdownItem>
-                <DropdownItem key="Viedogalerie">2007</DropdownItem>
-              </DropdownSection>
-            </DropdownMenu>
-          </Dropdown>
-        </NavbarItem>
+            <DropdownSection title="Videos" showDivider>
+              <DropdownItem key="Viedogalerie">2023</DropdownItem>
+              <DropdownItem key="Viedogalerie">2007</DropdownItem>
+            </DropdownSection>
+          </DropdownMenu>
+        </Dropdown>
 
         <NavbarItem>
           <Link color="foreground" href="#" aria-current="page">
@@ -196,69 +190,65 @@ const Nav = () => {
           </Link>
         </NavbarMenuItem>
 
-        <NavbarMenuItem>
-          <Dropdown>
-            <DropdownTrigger>
-              <Link color="foreground">ANSCHLAG</Link>
-            </DropdownTrigger>
+        <Dropdown>
+          <DropdownTrigger>
+            <Link color="foreground">ANSCHLAG</Link>
+          </DropdownTrigger>
 
-            <DropdownMenu
-              aria-label="Pfadi Gruppen"
-              className="w-[340px] text-black"
-              itemClasses={{
-                base: "gap-4",
-              }}
-            >
-              <DropdownSection title="1.Stufe" showDivider>
-                <DropdownItem key="Akela" description="Buebe (Bis 10. Jahre)">
-                  Akela 🐺
-                </DropdownItem>
-
-                <DropdownItem key="Raschka" description="Meitli (Bis 10.Jahre)">
-                  Raschka 🐝
-                </DropdownItem>
-              </DropdownSection>
-
-              <DropdownSection title="2.Stufe" showDivider>
-                <DropdownItem key="2. Stufe" description="Buebe (10-14 Jahre">
-                  OFI ⚜️
-                </DropdownItem>
-
-                <DropdownItem key="2.Stufe" description="Raschka (10-14 Jahre">
-                  Raschka 🍀
-                </DropdownItem>
-              </DropdownSection>
-
-              <DropdownItem key="PIOS" description="ab 14 Jahre">
-                PIOS 🧭
+          <DropdownMenu
+            aria-label="Pfadi Gruppen"
+            className="w-[340px] text-black"
+            itemClasses={{
+              base: "gap-4",
+            }}
+          >
+            <DropdownSection title="1.Stufe" showDivider>
+              <DropdownItem key="Akela" description="Buebe (Bis 10. Jahre)">
+                Akela 🐺
               </DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
-        </NavbarMenuItem>
 
-        <NavbarMenuItem>
-          <Dropdown>
-            <NavbarMenuItem>
-              <DropdownTrigger>
-                <Link color="foreground">ÜBER UNS</Link>
-              </DropdownTrigger>
-            </NavbarMenuItem>
+              <DropdownItem key="Raschka" description="Meitli (Bis 10.Jahre)">
+                Raschka 🐝
+              </DropdownItem>
+            </DropdownSection>
 
-            <DropdownMenu
-              aria-label="Pfadi Gruppen"
-              className="w-[340px] text-black"
-              itemClasses={{
-                base: "gap-4",
-              }}
-            >
-              <DropdownItem key="2023">FAQ</DropdownItem>
-              <DropdownItem key="2022">Lager</DropdownItem>
-              <DropdownItem key="2021">Leitende</DropdownItem>
-              <DropdownItem key="2020">Treffpunkt</DropdownItem>
-              <DropdownItem key="2019">Kontakt</DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
-        </NavbarMenuItem>
+            <DropdownSection title="2.Stufe" showDivider>
+              <DropdownItem key="2. Stufe" description="Buebe (10-14 Jahre">
+                OFI ⚜️
+              </DropdownItem>
+
+              <DropdownItem key="2.Stufe" description="Raschka (10-14 Jahre">
+                Raschka 🍀
+              </DropdownItem>
+            </DropdownSection>
+
+            <DropdownItem key="PIOS" description="ab 14 Jahre">
+              PIOS 🧭
+            </DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
+
+        <Dropdown>
+          <NavbarMenuItem>
+            <DropdownTrigger>
+              <Link color="foreground">ÜBER UNS</Link>
+            </DropdownTrigger>
+          </NavbarMenuItem>
+
+          <DropdownMenu
+            aria-label="Pfadi Gruppen"
+            className="w-[340px] text-black"
+            itemClasses={{
+              base: "gap-4",
+            }}
+          >
+            <DropdownItem key="2023">FAQ</DropdownItem>
+            <DropdownItem key="2022">Lager</DropdownItem>
+            <DropdownItem key="2021">Leitende</DropdownItem>
+            <DropdownItem key="2020">Treffpunkt</DropdownItem>
+            <DropdownItem key="2019">Kontakt</DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
 
         <NavbarMenuItem>
           <Link color="foreground" href="#" aria-current="page">
@@ -266,41 +256,39 @@ const Nav = () => {
           </Link>
         </NavbarMenuItem>
 
-        <NavbarMenuItem>
-          <Dropdown>
-            <NavbarMenuItem>
-              <DropdownTrigger>
-                <Link color="foreground">GALERIE</Link>
-              </DropdownTrigger>
-            </NavbarMenuItem>
+        <Dropdown>
+          <NavbarMenuItem>
+            <DropdownTrigger>
+              <Link color="foreground">GALERIE</Link>
+            </DropdownTrigger>
+          </NavbarMenuItem>
 
-            <DropdownMenu
-              aria-label="Pfadi Gruppen"
-              className="w-[340px] text-black"
-              itemClasses={{
-                base: "gap-4",
-              }}
-            >
-              <DropdownSection title="Bilder" showDivider>
-                <DropdownItem key="2023">2023</DropdownItem>
-                <DropdownItem key="2022">2022</DropdownItem>
-                <DropdownItem key="2021">2021</DropdownItem>
-                <DropdownItem key="2020">2020</DropdownItem>
-                <DropdownItem key="2019">2019</DropdownItem>
-                <DropdownItem key="2018">2018</DropdownItem>
-                <DropdownItem key="2017">2017</DropdownItem>
-                <DropdownItem key="1016">2016</DropdownItem>
-                <DropdownItem key="1015">2015</DropdownItem>
-                <DropdownItem key="2014">2014</DropdownItem>
-              </DropdownSection>
+          <DropdownMenu
+            aria-label="Pfadi Gruppen"
+            className="w-[340px] text-black"
+            itemClasses={{
+              base: "gap-4",
+            }}
+          >
+            <DropdownSection title="Bilder" showDivider>
+              <DropdownItem key="2023">2023</DropdownItem>
+              <DropdownItem key="2022">2022</DropdownItem>
+              <DropdownItem key="2021">2021</DropdownItem>
+              <DropdownItem key="2020">2020</DropdownItem>
+              <DropdownItem key="2019">2019</DropdownItem>
+              <DropdownItem key="2018">2018</DropdownItem>
+              <DropdownItem key="2017">2017</DropdownItem>
+              <DropdownItem key="1016">2016</DropdownItem>
+              <DropdownItem key="1015">2015</DropdownItem>
+              <DropdownItem key="2014">2014</DropdownItem>
+            </DropdownSection>
 
-              <DropdownSection title="Videos" showDivider>
-                <DropdownItem key="Viedogalerie">2023</DropdownItem>
-                <DropdownItem key="Viedogalerie">2007</DropdownItem>
-              </DropdownSection>
-            </DropdownMenu>
-          </Dropdown>
-        </NavbarMenuItem>
+            <DropdownSection title="Videos" showDivider>
+              <DropdownItem key="Viedogalerie">2023</DropdownItem>
+              <DropdownItem key="Viedogalerie">2007</DropdownItem>
+            </DropdownSection>
+          </DropdownMenu>
+        </Dropdown>
 
         <NavbarMenuItem>
           <Link color="foreground" href="#" aria-current="page">
