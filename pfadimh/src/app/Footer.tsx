@@ -1,18 +1,18 @@
 import { Divider } from "@nextui-org/divider";
 import React from "react";
 import { Card, CardBody, CardHeader } from "@nextui-org/card";
-import { Button, onpress } from "@nextui-org/button";
+import { Button, ButtonGroup } from "@nextui-org/button";
 
 const Footer = () => {
   return (
-    <div className="bg-black">
+    <div>
       <Card className="bg-black">
         <CardHeader>
-          <h2>Kontakt</h2>
+          <h2 className="unerline-offset-8 text-white">Kontakt</h2>
         </CardHeader>
         <CardBody>
           <div className="text-black" style={{ whiteSpace: "pre-line" }}>
-            <p>
+            <p className="text-white">
               pdfadimh@gmail.com
               {"\n"}
               {"\n"}
@@ -23,12 +23,12 @@ const Footer = () => {
           </div>
         </CardBody>
       </Card>
-      <Card>
+      <Card className="bg-black">
         <CardHeader>
-          <h2>Downloads</h2>
+          <h2 className="unerline-offset-8 text-white">Downloads</h2>
         </CardHeader>
         <CardBody>
-          <p>
+          <p className="text-white">
             Jahresprogramm
             {"\n"}
             {"\n"}
@@ -39,33 +39,37 @@ const Footer = () => {
           </p>
         </CardBody>
       </Card>
-      <Card>
+      <Card className="bg-black">
         <CardHeader>
-          <h2>FAQ</h2>
+          <h2 className="unerline-offset-8 text-white">FAQ</h2>
         </CardHeader>
         <CardBody>
-          <p>Die häufig gestellten Fragen</p>
+          <p className="text-white">Die häufig gestellten Fragen</p>
           add a button with link
         </CardBody>
       </Card>
-      <Card>
+      <Card className="bg-black">
         <CardHeader>
-          <h2>Social Media</h2>
+          <h2 className="unerline-offset-8 text-white">Social Media</h2>
         </CardHeader>
         <CardBody>
-          <p>Folge uns auf Social Media:</p>
-          <Button
-            onPress="https://www.facebook.com/pfadimh/?locale=de_D"
-            className="bg-white"
-          >
-            Facebook
-          </Button>
-          <Button
-            href="https://www.instagram.com/pfadimh/?hl=de"
-            className="bg-white"
-          >
-            Instagram
-          </Button>
+          <p className="text-white">Folge uns auf Social Media:</p>
+          <ButtonGroup>
+            <Button
+              as="a"
+              href="https://www.facebook.com/pfadimh/?locale=de_D"
+              className="bg-red-800"
+            >
+              Facebook
+            </Button>
+            <Button
+              as="a"
+              href="https://www.facebook.com/pfadimh/?locale=de_D"
+              className="bg-red-800"
+            >
+              Instagram
+            </Button>
+          </ButtonGroup>
         </CardBody>
       </Card>
     </div>
