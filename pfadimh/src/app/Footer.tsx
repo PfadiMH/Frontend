@@ -84,8 +84,6 @@ const Footer = () => {
         </div>
         <div className="">
           <h2>FAQ</h2>
-          <p className="text-[#F79F00]">Die häufig gestellten Fragen</p>
-          add a button with link
         </div>
       </div>
     </div>
