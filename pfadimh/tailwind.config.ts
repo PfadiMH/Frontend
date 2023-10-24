@@ -16,7 +16,7 @@ const config: Config = {
       brown: "#953816",
       gamboge: "#f79f00",
       blackbean: "#2d0b0f",
-      licorice: "#1e0003",
+      licorice: "#200003",
     },
     extend: {
       backgroundImage: {

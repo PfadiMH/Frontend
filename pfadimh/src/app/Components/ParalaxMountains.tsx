@@ -49,7 +49,7 @@ export default function ParallaxMountains() {
           },
           {
             image: mountain1.src,
-            translateY: [5, 20],
+            translateY: [5, 0],
             shouldAlwaysCompleteAnimation: true,
             expanded: false,
           },
