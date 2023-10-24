@@ -14,7 +14,7 @@ export default function ParallaxMountains() {
   return (
     <div className="h-[100vh]">
       <ParallaxBanner
-        className="h-[100vh] bg-[#bbe8f6] aspect-[2/1]"
+        className="h-screen"
         layers={[
           {
             image: "https://i.imgur.com/JuEP9bg.png",
