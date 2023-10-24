@@ -9,6 +9,15 @@ const config: Config = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      rosewood: "#5d1916",
+      brown: "#953816",
+      gamboge: "#f79f00",
+      blackbean: "#2d0b0f",
+      licorice: "#200003",
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
