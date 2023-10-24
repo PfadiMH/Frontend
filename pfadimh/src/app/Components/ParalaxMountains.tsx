@@ -1,40 +1,57 @@
 "use client";
-import {
-  ParallaxProvider,
-  ParallaxBanner,
-  Parallax,
-} from "react-scroll-parallax";
-import { useParallax } from "react-scroll-parallax";
-import React, { useRef } from "react";
-import Image from "next/image";
+import { ParallaxBanner } from "react-scroll-parallax";
 
-import { useParallaxController } from "react-scroll-parallax";
+import mountain1 from "../assets/1.png";
+import mountain2 from "../assets/2.png";
+import mountain3 from "../assets/3.png";
+import mountain4 from "../assets/4.png";
+import mountain5 from "../assets/5.png";
 
 export default function ParallaxMountains() {
   return (
-    <div className="h-[100vh]">
+    <div className="h-screen ">
       <ParallaxBanner
-        className="h-[100vh] bg-[#bbe8f6] aspect-[2/1]"
+        className="h-screen"
         layers={[
           {
-            image: "https://i.imgur.com/JuEP9bg.png",
-            speed: -40,
+            image: mountain5.src,
+            translateY: [0, 50],
+            shouldAlwaysCompleteAnimation: true,
+            expanded: false,
+          },
+
+          {
+            image: mountain4.src,
+            translateY: [5, 45],
+            shouldAlwaysCompleteAnimation: true,
+            expanded: false,
+          },
+
+          {
+            image: mountain3.src,
+            translateY: [10, 30],
+            shouldAlwaysCompleteAnimation: true,
+            expanded: false,
           },
           {
-            image: "https://i.imgur.com/lr3gurc.png",
-            speed: -30,
+            speed: 20,
+            children: (
+              <div className="absolute inset-0 flex items-center justify-center">
+                <h1 className="text-9xl text-white font-bold">Pfadi MH</h1>
+              </div>
+            ),
           },
           {
-            image: "https://i.imgur.com/lr3gurc.png",
-            speed: -20,
+            image: mountain2.src,
+            translateY: [10, 20],
+            shouldAlwaysCompleteAnimation: true,
+            expanded: false,
           },
           {
-            image: "https://i.imgur.com/iUHcYis.png",
-            speed: -10,
-          },
-          {
-            image: "https://i.imgur.com/SmAaims.png",
-            speed: 0,
+            image: mountain1.src,
+            translateY: [5, 20],
+            shouldAlwaysCompleteAnimation: true,
+            expanded: false,
           },
         ]}
       />
