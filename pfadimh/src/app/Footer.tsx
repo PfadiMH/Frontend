@@ -5,7 +5,7 @@ import { Button, ButtonGroup } from "@nextui-org/button";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="bg-licorice">
       <Card className="bg-black w-">
         <CardHeader>
           <h2 className="unerline-offset-8 text-white">Kontakt</h2>
