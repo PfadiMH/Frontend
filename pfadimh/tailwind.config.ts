@@ -12,11 +12,11 @@ const config: Config = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      winered: "#5d1916",
-      orange: "#953816",
-      yellow: "#f79f00",
-      forestred: "#2d0b0f",
-      woodred: "#1e0003",
+      rosewood: "#5d1916",
+      brown: "#953816",
+      gamboge: "#f79f00",
+      blackbean: "#2d0b0f",
+      licorice: "#1e0003",
     },
     extend: {
       backgroundImage: {

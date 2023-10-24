@@ -12,16 +12,16 @@ export default function MyCard() {
   return (
     <main>
       <Header />
-      <div className="p-10 flex justify-center">
+      <div className="p-10 flex justify-center bg-licorice">
         <div className="grid grid-cols-1 md:w-[768px] sm:grid-cols-3 gap-8">
-          <Card className="w-full sm:col-span-2 bg-winered  ">
+          <Card className="w-full sm:col-span-2 bg-livorice">
             <CardHeader>
-              <h3 className="text-3xl font-bold text-red-600">
+              <h3 className="text-3xl font-bold text-gamboge">
                 Unsere nächste Aktivität.
               </h3>
             </CardHeader>
             <CardBody>
-              <div className="text-black" style={{ whiteSpace: "pre-line" }}>
+              <div className="text-gamboge" style={{ whiteSpace: "pre-line" }}>
                 <p>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                   diam nonumy eirmod tempor invidunt ut labore et dolore magna
@@ -39,30 +39,30 @@ export default function MyCard() {
             </CardBody>
           </Card>
 
-          <Card className=" w-full bg-red-100 ">
+          <Card className=" w-full bg-licorice  ">
             <CardHeader>
-              <h3 className="text-3xl font-bold text-red-600">Kalender</h3>
+              <h3 className="text-3xl font-bold text-gamboge">Kalender</h3>
             </CardHeader>
             <CardBody>
-              <div className="text-black" style={{ whiteSpace: "pre-line" }}>
+              <div className="text-gamboge" style={{ whiteSpace: "pre-line" }}>
                 <h4>Planungstag</h4>
-                <p className="text-blue-600">22. Oktober 2023</p>
+                <p className="text-gamboge">22. Oktober 2023</p>
                 {"\n"}
                 <h4>Heimwoche</h4>
-                <p className="text-blue-600">
+                <p className="text-gamboge">
                   22. Oktober 2023 - 28. Oktober 2023
                 </p>
               </div>
             </CardBody>
           </Card>
 
-          <Card className="sm:col-span-2 w-full bg-red-100 p-5 ">
+          <Card className="sm:col-span-2 w-full bg-licorice p-5 ">
             <CardHeader>
-              <h2 className="text-3xl font-bold text-red-600">Über uns.</h2>
+              <h2 className="text-3xl font-bold text-gamboge">Über uns.</h2>
             </CardHeader>
             <CardBody>
               <div
-                className="text-black font-sans"
+                className="text-gamboge font-sans"
                 style={{ whiteSpace: "pre-line" }}
               >
                 Wir sind die Piostufe. In unserer Stufe werden die
@@ -86,7 +86,7 @@ export default function MyCard() {
             </CardBody>
           </Card>
 
-          <Card className=" hidden sm:block  bg-red-100 ">
+          <Card className=" hidden sm:block  bg-licorice ">
             <CardBody className="random_img">
               <Image
                 src="https://image.jimcdn.com/app/cms/image/transf/dimension=399x10000:format=png/path/s4c5d6f225e690de2/image/i1750ff59e7550964/version/1667412256/image.png"
@@ -95,15 +95,15 @@ export default function MyCard() {
             </CardBody>
           </Card>
 
-          <Card className="w-full sm:col-span-3 bg-red-100 ">
+          <Card className="w-full sm:col-span-3 bg-licorice ">
             <CardHeader>
-              <h3 className="text-3xl font-bold text-red-600">Leiter*Innen</h3>
+              <h3 className="text-3xl font-bold text-gamboge">Leiter*Innen</h3>
             </CardHeader>
             <CardBody>
               <img
                 src="your_leaders_image_url_here"
                 alt="leaders_description_here"
-                className="text-black"
+                className="text-gamboge"
               />
             </CardBody>
           </Card>
