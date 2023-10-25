@@ -14,7 +14,7 @@ export default function MyCard() {
       <Header />
       <div className="p-10 flex justify-center bg-licorice">
         <div className="grid grid-cols-1 md:w-[768px] sm:grid-cols-3 gap-8">
-          <Card className="w-full sm:col-span-2 bg-livorice boxShadow:none">
+          <Card className="w-full sm:col-span-2 bg-livorice">
             <CardHeader>
               <h3 className="text-3xl font-bold text-gamboge">
                 Unsere nächste Aktivität.
@@ -39,7 +39,7 @@ export default function MyCard() {
             </CardBody>
           </Card>
 
-          <Card className=" w-full bg-licorice shadow:none">
+          <Card className=" w-full bg-licorice  ">
             <CardHeader>
               <h3 className="text-3xl font-bold text-gamboge">Kalender</h3>
             </CardHeader>
@@ -56,7 +56,7 @@ export default function MyCard() {
             </CardBody>
           </Card>
 
-          <Card className="sm:col-span-2 w-full bg-licorice p-5  shadow:none">
+          <Card className="sm:col-span-2 w-full bg-licorice p-5 ">
             <CardHeader>
               <h2 className="text-3xl font-bold text-gamboge">Über uns.</h2>
             </CardHeader>
@@ -86,7 +86,7 @@ export default function MyCard() {
             </CardBody>
           </Card>
 
-          <Card className=" hidden sm:block  bg-licorice  shadow:none">
+          <Card className=" hidden sm:block  bg-licorice ">
             <CardBody className="random_img">
               <Image
                 src="https://image.jimcdn.com/app/cms/image/transf/dimension=399x10000:format=png/path/s4c5d6f225e690de2/image/i1750ff59e7550964/version/1667412256/image.png"
@@ -95,7 +95,7 @@ export default function MyCard() {
             </CardBody>
           </Card>
 
-          <Card className="w-full sm:col-span-3 bg-licorice  shadow-none ">
+          <Card className="w-full sm:col-span-3 bg-licorice ">
             <CardHeader>
               <h3 className="text-3xl font-bold text-gamboge">Leiter*Innen</h3>
             </CardHeader>
