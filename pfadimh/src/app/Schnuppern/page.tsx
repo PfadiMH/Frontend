@@ -11,18 +11,20 @@ const genders = [
 
 export default function schnuppern() {
   return (
-    <div className="p-10 flex justify-center">
+    <div className="p-10 flex justify-center bg-licorice">
       <div className="flex w-full flex-wrap md:w-[768px] justify-center gap-4">
         <Input
+          color="warning"
           size="md"
           variant="underlined"
           type="text"
           label="Vorname"
           placeholder="Max"
-          className="w-full sm:max-w-xs"
+          className="w-full sm:max-w-xs color-orange"
         />
 
         <Input
+          color="warning"
           size="md"
           variant="underlined"
           type="text"
@@ -45,6 +47,7 @@ export default function schnuppern() {
         </Select>
 
         <Input
+          color="warning"
           size="md"
           variant="underlined"
           type="text"
@@ -54,6 +57,7 @@ export default function schnuppern() {
         />
 
         <Input
+          color="warning"
           size="md"
           variant="underlined"
           type="text"
@@ -63,6 +67,7 @@ export default function schnuppern() {
         />
 
         <Input
+          color="warning"
           size="md"
           variant="underlined"
           type="text"
@@ -72,6 +77,7 @@ export default function schnuppern() {
         />
 
         <Input
+          color="warning"
           size="md"
           variant="underlined"
           type="text"
@@ -81,6 +87,7 @@ export default function schnuppern() {
         />
 
         <Input
+          color="warning"
           size="md"
           variant="underlined"
           type="text"
@@ -90,6 +97,7 @@ export default function schnuppern() {
         />
 
         <Input
+          color="warning"
           size="md"
           variant="underlined"
           type="text"
@@ -99,6 +107,7 @@ export default function schnuppern() {
         />
 
         <Input
+          color="warning"
           size="md"
           variant="underlined"
           type="date"
@@ -109,12 +118,13 @@ export default function schnuppern() {
         />
 
         <Input
+          color="warning"
           size="md"
           variant="underlined"
           type="text"
           label="Schulklasse"
           defaultValue=""
-          className="w-full sm:max-w-xs"
+          className="w-full sm:max-w-xs underline-orange"
         />
       </div>
     </div>

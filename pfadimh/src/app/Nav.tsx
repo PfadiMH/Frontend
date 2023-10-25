@@ -41,27 +41,39 @@ const Nav = () => {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#" aria-current="page">
-            HOME
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link
-            color="foreground"
-            as="a"
-            href="/Schnuppern"
-            aria-current="page"
-          >
-            SCHNUPPERN
-          </Link>
-        </NavbarItem>
+        <Button
+          disableRipple
+          className="p-0 bg-transparent data-[hover=true] hover:bg-[#F79F00]"
+          radius="sm"
+        >
+          <NavbarItem>
+            <Link color="foreground" href="#" aria-current="page">
+              HOME
+            </Link>
+          </NavbarItem>
+        </Button>
+        <Button
+          disableRipple
+          className="p-0 bg-transparent data-[hover=true] hover:bg-[#F79F00]"
+          radius="sm"
+        >
+          <NavbarItem>
+            <Link
+              color="foreground"
+              as="a"
+              href="/Schnuppern"
+              aria-current="page"
+            >
+              SCHNUPPERN
+            </Link>
+          </NavbarItem>
+        </Button>
 
         <Dropdown>
           <DropdownTrigger>
             <Button
               disableRipple
-              className="p-0 bg-transparent data-[hover=true]:bg-transparent"
+              className="p-0 bg-transparent data-[hover=true] hover:bg-[#F79F00]"
               radius="sm"
             >
               ANSCHLÄGE
@@ -130,7 +142,7 @@ const Nav = () => {
             <DropdownTrigger>
               <Button
                 disableRipple
-                className="p-0 bg-transparent data-[hover=true]:bg-transparent"
+                className="p-0 bg-transparent data-[hover=true] hover:bg-[#F79F00]"
                 radius="sm"
               >
                 ÜBER UNS
@@ -152,18 +164,23 @@ const Nav = () => {
             <DropdownItem key="2019">Kontakt</DropdownItem>
           </DropdownMenu>
         </Dropdown>
-        <NavbarItem>
-          <Link color="foreground" href="#" aria-current="page">
-            NEWS
-          </Link>
-        </NavbarItem>
+        <Button
+          disableRipple
+          className="p-0 bg-transparent data-[hover=true] hover:bg-[#F79F00]"
+          radius="sm"
+        >
+          <NavbarItem>
+            <Link color="foreground" href="#" aria-current="page">
+              NEWS
+            </Link>
+          </NavbarItem>
+        </Button>
         <Dropdown>
           <NavbarItem>
             <DropdownTrigger>
               <Button
                 disableRipple
-                className="p-0 bg-transparent data-[hover=true]:bg-transparent"
-                radius="sm"
+                className="p-0 bg-transparent data-[hover=true] hover:bg-[#F79F00]"
               >
                 GALERIE
               </Button>
@@ -196,28 +213,46 @@ const Nav = () => {
             </DropdownSection>
           </DropdownMenu>
         </Dropdown>
-        <NavbarItem>
-          <Link color="foreground" href="#" aria-current="page">
-            SHOP
-          </Link>
-        </NavbarItem>
+        <Button
+          disableRipple
+          className="p-0 bg-transparent data-[hover=true] hover:bg-[#F79F00]"
+          radius="sm"
+        >
+          <NavbarItem>
+            <Link color="foreground" href="#" aria-current="page">
+              SHOP
+            </Link>
+          </NavbarItem>
+        </Button>
       </NavbarContent>
 
       <NavbarMenu>
         <NavbarMenuItem>
-          <Link color="foreground" href="#" aria-current="page">
+          <Link
+            color="foreground"
+            href="#"
+            aria-current="page"
+            className="hover:bg-[#F79F00]"
+          >
             HOME
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link color="foreground" href="#" aria-current="page">
+          <Link
+            color="foreground"
+            href="#"
+            aria-current="page"
+            className="hover:bg-[#F79F00]"
+          >
             SCHNUPPERN
           </Link>
         </NavbarMenuItem>
 
-        <Dropdown>
-          <DropdownTrigger>
-            <Link color="foreground">ANSCHLAG</Link>
+        <Dropdown className=" hover:bg-[#F79F00]">
+          <DropdownTrigger className=" hover:bg-[#F79F00]">
+            <Link color="foreground" className="hover:bg-[#F79F00]">
+              ANSCHLAG
+            </Link>
           </DropdownTrigger>
 
           <DropdownMenu
@@ -256,7 +291,9 @@ const Nav = () => {
         <Dropdown>
           <NavbarMenuItem>
             <DropdownTrigger>
-              <Link color="foreground">ÜBER UNS</Link>
+              <Link color="foreground" className="hover:bg-[#F79F00]">
+                ÜBER UNS
+              </Link>
             </DropdownTrigger>
           </NavbarMenuItem>
 
@@ -267,16 +304,34 @@ const Nav = () => {
               base: "gap-4",
             }}
           >
-            <DropdownItem key="2023">FAQ</DropdownItem>
-            <DropdownItem key="2022">Lager</DropdownItem>
-            <DropdownItem key="2021">Leitende</DropdownItem>
-            <DropdownItem key="2020">Treffpunkt</DropdownItem>
-            <DropdownItem key="2019">Kontakt</DropdownItem>
+            <DropdownItem key="2023" className="hover:bg-[#F79F00]">
+              FAQ
+            </DropdownItem>
+            <DropdownItem key="2023" className="hover:bg-[#F79F00]">
+              FAQ
+            </DropdownItem>
+            <DropdownItem key="2022" className="hover:bg-[#F79F00]">
+              Lager
+            </DropdownItem>
+            <DropdownItem key="2021" className="hover:bg-[#F79F00]">
+              Leitende
+            </DropdownItem>
+            <DropdownItem key="2020" className="hover:bg-[#F79F00]">
+              Treffpunkt
+            </DropdownItem>
+            <DropdownItem key="2019" className="hover:bg-[#F79F00]">
+              Kontakt
+            </DropdownItem>
           </DropdownMenu>
         </Dropdown>
 
         <NavbarMenuItem>
-          <Link color="foreground" href="#" aria-current="page">
+          <Link
+            color="foreground"
+            href="#"
+            aria-current="page"
+            className="hover:bg-[#F79F00]"
+          >
             NEWS
           </Link>
         </NavbarMenuItem>
@@ -284,7 +339,9 @@ const Nav = () => {
         <Dropdown>
           <NavbarMenuItem>
             <DropdownTrigger>
-              <Link color="foreground">GALERIE</Link>
+              <Link color="foreground" className="hover:bg-[#F79F00]">
+                GALERIE
+              </Link>
             </DropdownTrigger>
           </NavbarMenuItem>
 
@@ -316,7 +373,12 @@ const Nav = () => {
         </Dropdown>
 
         <NavbarMenuItem>
-          <Link color="foreground" href="#" aria-current="page">
+          <Link
+            color="foreground"
+            href="#"
+            aria-current="page"
+            className="hover:bg-[#F79F00]"
+          >
             SHOP
           </Link>
         </NavbarMenuItem>
