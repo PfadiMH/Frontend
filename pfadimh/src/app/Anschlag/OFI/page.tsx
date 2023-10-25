@@ -157,12 +157,12 @@ export default function MyCard() {
                       removeWrapper
                       isZoomed
                       alt="Banner"
-                      className="z-0 h-full sm:w-full object-cover"
+                      className="z-0 w-full h-auto object-cover"
                       radius="none"
                       src={milui.src}
                     />
                   </div>
-                  <CardFooter className="border-gamboge  border-b-[10px] absolute bg-licorice/70 bottom-0 z-10 justify-between pointer-events-none ">
+                  <CardFooter className="border-gamboge border-b-[10px] absolute bg-licorice/70 bottom-0 z-10 justify-between pointer-events-none ">
                     <div className="font-extrabold">
                       <p className="text-gamboge text-lg">Milui</p>
                       <p className="text-gamboge text-tiny">Lia Humbel</p>
