@@ -57,22 +57,17 @@ const Footer = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center  gap-8">
         <div>
-          <h2 className="unerline-offset-8 text-white">Kontakt</h2>
-          <div className="text-black" style={{ whiteSpace: "pre-line" }}>
-            <p className="text-[#F79F00]">
-              pdfadimh@gmail.com
-              {"\n"}
-              {"\n"}
-              078 660 92 93
-              {"\n"}
-              Meilen Herlliberg
-            </p>
+          <h2 className="unerline-offset-8 text-gamboge">Kontakt</h2>
+          <div className="text-gamboge">
+            <p>pdfadimh@gmail.com</p>
+            <p>078 660 92 93</p>
+            <p>Meilen Herlliberg</p>
           </div>
         </div>
-        <div className="">
-          <h2>Downloads</h2>
+        <div>
+          <h2 className="unerline-offset-8 text-gamboge">Downloads</h2>
 
-          <p className="text-[#F79F00]">
+          <p className="text-gamboge">
             Jahresprogramm
             {"\n"}
             {"\n"}
@@ -82,8 +77,8 @@ const Footer = () => {
             Bolstrasse 6
           </p>
         </div>
-        <div className="">
-          <h2>FAQ</h2>
+        <div>
+          <h2 className="text-gamboge">FAQ</h2>
         </div>
       </div>
     </div>
