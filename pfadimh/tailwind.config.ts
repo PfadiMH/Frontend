@@ -8,6 +8,7 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
+
   theme: {
     colors: {
       transparent: "transparent",
@@ -17,15 +18,19 @@ const config: Config = {
       gamboge: "#f79f00",
       blackbean: "#2d0b0f",
       licorice: "#1e0003",
+      'background': '#1e0003',
     },
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+    
+  extend: {
+    backgroundColor: {"primary": "#1e0003"},
+    backgroundImage: {
+      "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      "gradient-conic":
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
     },
   },
+
+},
   darkMode: "class",
   plugins: [
     nextui({
