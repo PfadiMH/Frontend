@@ -33,7 +33,7 @@ export default function schnuppern() {
 
         <Select
           variant="underlined"
-          label="Dein geschlecht:"
+          label="Dein Geschlecht:"
           placeholder=""
           className="w-full sm:max-w-xs"
         >
