@@ -2,7 +2,7 @@ import { Image } from "@nextui-org/image";
 const Header = () => {
   return (
     <div>
-      <div className="relative border-b-[10px] border-red-500 z-10 bg-align-centre h-[40vh] flex justify-center overflow-hidden items-center">
+      <div className="relative border-b-[10px] border-gamboge z-10 bg-align-centre h-[40vh] flex justify-center overflow-hidden items-center">
         <h1 className="pointer-events-none z-10 absolute text-centre font-bold text-6xl text-white">
           OFI
         </h1>

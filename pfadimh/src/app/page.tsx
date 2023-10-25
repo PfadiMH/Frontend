@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="bg-licorice">
       <ParalaxMountains />
-      <div className="text-gamboge flex flex-col text-center p-16 gap-8">
+      <div className="text-gamboge flex flex-col text-center p-4 md:p-16 gap-8">
         <h1 className="text-3xl font-bold">Die Abteilung Meilen-Herrliberg</h1>
         <p>
           Im Jahre 1936 ist unser Verein entstanden. Mit etwas mehr als 150
