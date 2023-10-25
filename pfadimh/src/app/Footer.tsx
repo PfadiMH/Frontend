@@ -5,14 +5,14 @@ import { Button, ButtonGroup } from "@nextui-org/button";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center bg-[#1e0003]">
+    <div className="flex flex-col gap-10 items-center bg-[#1e0003]">
       <div className="md:w-[768px]">
         <div className="flex flex-col gap-4 justify-center">
           <h3 className=" text-center text-[#F79F00]">
             Folge uns auf Social Media:
           </h3>
 
-          <div className="w-full relative bg-[#953816] flex  hover:bg-[#F79F00]">
+          <div className="w-full relative bg-[#953816] flex hover:bg-[#F79F00]">
             <img
               src="https://www.firewatchgame.com/images/banner_transparent_left.png"
               className="object-contain absolute left-0 h-full pointer-events-none"
@@ -55,9 +55,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 justify-center  gap-8">
+      <div className="grid  grid-cols-1 md:grid-cols-3 gap-4 md:gap-[12rem] ">
         <div>
-          <h2 className="unerline-offset-8 text-gamboge">Kontakt</h2>
+          <h2 className="unerline-offset-8 text-gamboge text-2xl">Kontakt</h2>
           <div className="text-gamboge">
             <p>pdfadimh@gmail.com</p>
             <p>078 660 92 93</p>
@@ -65,20 +65,15 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h2 className="unerline-offset-8 text-gamboge">Downloads</h2>
-
-          <p className="text-gamboge">
-            Jahresprogramm
-            {"\n"}
-            {"\n"}
-            Organisation
-            {"\n"}
-            {"\n"}
-            Bolstrasse 6
-          </p>
+          <h2 className="unerline-offset-8 text-gamboge text-2xl">Downloads</h2>
+          <div className="text-gamboge">
+            <p>Jahresprogramm</p>
+            <p>Organisation</p>
+            <p>Bolstrasse 6</p>
+          </div>
         </div>
         <div>
-          <h2 className="text-gamboge">FAQ</h2>
+          <h2 className="text-gamboge text-2xl">FAQ</h2>
         </div>
       </div>
     </div>
