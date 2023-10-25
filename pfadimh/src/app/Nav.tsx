@@ -31,18 +31,20 @@ const Nav = () => {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <img
-            src="https://image.jimcdn.com/app/cms/image/transf/none/path/s4c5d6f225e690de2/image/i1750ff59e7550964/version/1667412256/image.png"
-            alt="PfadiMH Logo"
-            className="w-12 h-12 align-left "
-          />
-          <p className="font-bold">Pfadi MH</p>
+          <Link color="foreground" as="a" href="/" aria-current="page">
+            <img
+              src="https://image.jimcdn.com/app/cms/image/transf/none/path/s4c5d6f225e690de2/image/i1750ff59e7550964/version/1667412256/image.png"
+              alt="PfadiMH Logo"
+              className="w-12 h-12 align-left "
+            />
+            Pfadi MH
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#" aria-current="page">
+          <Link color="foreground" href="/" aria-current="page">
             HOME
           </Link>
         </NavbarItem>
