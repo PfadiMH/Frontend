@@ -36,8 +36,10 @@ export default function ParallaxMountains() {
           {
             speed: 20,
             children: (
-              <div className="absolute inset-0 flex items-center justify-center">
-                <h1 className="text-9xl text-white font-bold">Pfadi MH</h1>
+              <div className="absolute inset-0 flex items-center">
+                <h1 className="text-9xl text-center w-full text-white font-bold">
+                  Pfadi MH
+                </h1>
               </div>
             ),
           },

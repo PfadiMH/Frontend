@@ -20,7 +20,7 @@ const Footer = () => {
             />
             <Button
               as="a"
-              href="https://www.facebook.com/pfadimh/?locale=de_D"
+              href="https://www.instagram.com/pfadimh/?hl=de"
               className="text-[#1e0003] grow bg-transparent"
               radius="none"
             >

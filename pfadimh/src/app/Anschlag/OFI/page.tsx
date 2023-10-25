@@ -7,6 +7,9 @@ import {
   CardFooter,
   Image,
 } from "@nextui-org/react";
+import pyro from "./../../assets/pyro.jpg";
+import battino from "./../../assets/battino.jpg";
+import milui from "./../../assets/milui.jpg";
 
 export default function MyCard() {
   return (
@@ -94,19 +97,84 @@ export default function MyCard() {
               />
             </CardBody>
           </Card>
-
-          <Card className="w-full sm:col-span-3 bg-licorice ">
-            <CardHeader>
-              <h3 className="text-3xl font-bold text-gamboge">Leiter*Innen</h3>
-            </CardHeader>
-            <CardBody>
-              <img
-                src="your_leaders_image_url_here"
-                alt="leaders_description_here"
-                className="text-gamboge"
-              />
-            </CardBody>
-          </Card>
+          <div className="flex flex-col w-full sm:col-span-3 gap-3">
+            <h3 className="text-3xl font-bold w-full text-gamboge">
+              Leiter*Innen
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-3  gap-3 w-full">
+              <div>
+                <Card>
+                  <div className="relative  rounded-lg  z-10 bg-align-centre h-[16rem] flex justify-center overflow-hidden items-center">
+                    <Image
+                      removeWrapper
+                      isZoomed
+                      alt="Banner"
+                      className="z-0 h-full object-cover"
+                      radius="none"
+                      src={battino.src}
+                    />
+                  </div>
+                  <CardFooter className="border-gamboge  border-b-[10px] absolute bg-licorice/70 bottom-0 z-10 justify-between pointer-events-none ">
+                    <div className="font-extrabold">
+                      <p className="text-gamboge text-lg">Battino</p>
+                      <p className="text-gamboge text-tiny">Florian Loew</p>
+                      <p className="text-gamboge text-tiny">
+                        battino@Pfadi-MH.com
+                      </p>
+                    </div>
+                  </CardFooter>
+                </Card>
+              </div>
+              <div>
+                <Card>
+                  <div className="relative  rounded-lg h-[16rem] z-10 bg-align-centre  flex justify-center overflow-hidden items-center">
+                    <Image
+                      removeWrapper
+                      isZoomed
+                      alt="Banner"
+                      className="z-0 h-full sm:w-full object-cover"
+                      radius="none"
+                      src={pyro.src}
+                    />
+                  </div>
+                  <CardFooter className="border-gamboge  border-b-[10px] absolute bg-licorice/70 bottom-0 z-10 justify-between pointer-events-none ">
+                    <div className="font-extrabold">
+                      <p className="text-gamboge text-lg">Pyro</p>
+                      <p className="text-gamboge text-tiny">
+                        Sebastian Schmucki
+                      </p>
+                      <p className="text-gamboge text-tiny">
+                        pyro@Pfadi-MH.com
+                      </p>
+                    </div>
+                  </CardFooter>
+                </Card>
+              </div>
+              <div>
+                <Card>
+                  <div className="relative  rounded-lg h-[16rem] z-10 bg-align-centre  flex justify-center overflow-hidden items-center">
+                    <Image
+                      removeWrapper
+                      isZoomed
+                      alt="Banner"
+                      className="z-0 h-full sm:w-full object-cover"
+                      radius="none"
+                      src={milui.src}
+                    />
+                  </div>
+                  <CardFooter className="border-gamboge  border-b-[10px] absolute bg-licorice/70 bottom-0 z-10 justify-between pointer-events-none ">
+                    <div className="font-extrabold">
+                      <p className="text-gamboge text-lg">Milui</p>
+                      <p className="text-gamboge text-tiny">Lia Humbel</p>
+                      <p className="text-gamboge text-tiny">
+                        milui@Pfadi-MH.com
+                      </p>
+                    </div>
+                  </CardFooter>
+                </Card>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
