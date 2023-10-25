@@ -43,21 +43,33 @@ const Nav = () => {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="/" aria-current="page">
-            HOME
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link
-            color="foreground"
-            as="a"
-            href="/Schnuppern"
-            aria-current="page"
-          >
-            SCHNUPPERN
-          </Link>
-        </NavbarItem>
+        <Button
+          disableRipple
+          className="p-0 bg-transparent data-[hover=true] hover:bg-[#F79F00]"
+          radius="sm"
+        >
+          <NavbarItem>
+            <Link color="foreground" href="/" aria-current="page">
+              HOME
+            </Link>
+          </NavbarItem>
+        </Button>
+        <Button
+          disableRipple
+          className="p-0 bg-transparent data-[hover=true] hover:bg-[#F79F00]"
+          radius="sm"
+        >
+          <NavbarItem>
+            <Link
+              color="foreground"
+              as="a"
+              href="/Schnuppern"
+              aria-current="page"
+            >
+              SCHNUPPERN
+            </Link>
+          </NavbarItem>
+        </Button>
 
         <Dropdown>
           <DropdownTrigger>
